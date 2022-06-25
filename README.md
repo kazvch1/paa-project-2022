@@ -52,8 +52,6 @@ public class Maze extends JFrame {
     JButton solveStack;
     JButton clear;
     JButton genRandom;
-
-
     boolean repaint = false;  //(line:349 in paint) the value will define what we want to paint on the Jframe, solve the maze or paint the maze
 
    // take copy of the original maze, used when we want to remove (clear) the solution from the JFrame   
